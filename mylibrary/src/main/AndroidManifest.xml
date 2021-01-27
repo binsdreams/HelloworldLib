@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.binil.mylibrary">
+
+    <application
+        android:allowBackup="false"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        android:hardwareAccelerated="true"
+        tools:ignore="GoogleAppIndexingWarning,LockedOrientationActivity">
+
+        <activity
+            android:name=".MyLibraryActivity"
+            android:label="@string/libname"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+        </activity>
+
+    </application>
+
+</manifest>
