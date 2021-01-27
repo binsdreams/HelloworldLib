@@ -4,10 +4,10 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-class MyLibraryActivity : AppCompatActivity() {
+public class MyLibraryActivity : AppCompatActivity() {
 
     companion object{
-        fun getIntent(context: Context): Intent {
+        public fun getIntent(context: Context): Intent {
             return Intent(context,MyLibraryActivity::class.java)
         }
     }
