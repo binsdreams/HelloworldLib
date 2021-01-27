@@ -11,8 +11,8 @@ android {
         applicationId "com.binil.myapplication"
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 5
-        versionName "1.4.0"
+        versionCode 6
+        versionName "2.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
